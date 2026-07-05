@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Practice — AusMathBuddy</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <a class="brand" href="index.html">🧮 AusMathBuddy</a>
+  </header>
+
+  <div class="card">
+    <h1 id="practice-title">Practice</h1>
+    <p>Answer every question below. You'll see straight away if you're right!</p>
+    <div class="progress-bar"><div class="fill" id="practice-fill" style="width:0%"></div></div>
+  </div>
+
+  <div id="question-list"></div>
+
+  <div class="nav-row">
+    <a class="btn btn-outline" href="index.html">← Back to Home</a>
+    <button id="finish-btn" class="btn btn-primary disabled" disabled>Finish Practice</button>
+  </div>
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/practice.js"></script>
+</body>
+</html>

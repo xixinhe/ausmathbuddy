@@ -1,0 +1,42 @@
+[
+  {
+    "section": "s1",
+    "questions": [
+      { "id": "p_s1_1", "type": "input", "question": "4 groups of 3 apples. How many apples altogether? Type the number.", "answer": "12" },
+      { "id": "p_s1_2", "type": "mc", "question": "Which is the same as 5 + 5 + 5 + 5?", "options": ["5 × 3", "5 × 4", "5 × 5", "4 × 4"], "answer": "5 × 4" },
+      { "id": "p_s1_3", "type": "mc", "question": "An array has 3 rows and 7 columns. How many dots in total?", "options": ["10", "21", "37", "73"], "answer": "21" },
+      { "id": "p_s1_4", "type": "input", "question": "6 groups of 2 = ___", "answer": "12" },
+      { "id": "p_s1_5", "type": "mc", "question": "A basket has 5 apples. There are 6 baskets. How many apples in total?", "options": ["11", "30", "56", "65"], "answer": "30" }
+    ]
+  },
+  {
+    "section": "s2",
+    "questions": [
+      { "id": "p_s2_1", "type": "mc", "question": "What is 10 × 7?", "options": ["17", "70", "700", "107"], "answer": "70" },
+      { "id": "p_s2_2", "type": "mc", "question": "What is 5 × 6?", "options": ["11", "25", "30", "56"], "answer": "30" },
+      { "id": "p_s2_3", "type": "input", "question": "4 × 4 = ___", "answer": "16" },
+      { "id": "p_s2_4", "type": "mc", "question": "Using the doubling pattern, what is 4 × 8?", "options": ["16", "24", "32", "40"], "answer": "32" },
+      { "id": "p_s2_5", "type": "mc", "question": "What is 3 × 9?", "options": ["12", "27", "29", "39"], "answer": "27" }
+    ]
+  },
+  {
+    "section": "s3",
+    "questions": [
+      { "id": "p_s3_1", "type": "mc", "question": "15 lollies shared equally between 3 friends. How many does each friend get?", "options": ["3", "5", "12", "45"], "answer": "5" },
+      { "id": "p_s3_2", "type": "input", "question": "20 ÷ 4 = ___", "answer": "5" },
+      { "id": "p_s3_3", "type": "mc", "question": "24 cookies are put into groups of 6. How many groups?", "options": ["3", "4", "6", "18"], "answer": "4" },
+      { "id": "p_s3_4", "type": "mc", "question": "Which number sentence matches 3 × 4 = 12?", "options": ["12 ÷ 3 = 4", "12 + 3 = 15", "12 − 4 = 8", "4 ÷ 12 = 3"], "answer": "12 ÷ 3 = 4" },
+      { "id": "p_s3_5", "type": "mc", "question": "18 ÷ 3 = ?", "options": ["3", "6", "9", "15"], "answer": "6" }
+    ]
+  },
+  {
+    "section": "s4",
+    "questions": [
+      { "id": "p_s4_1", "type": "mc", "question": "If 6 × 4 = 24, what is 24 ÷ 4?", "options": ["4", "6", "8", "20"], "answer": "6" },
+      { "id": "p_s4_2", "type": "mc", "question": "Emma buys 4 stickers. Each sticker costs $3. How much does she spend?", "options": ["$7", "$12", "$16", "$34"], "answer": "$12" },
+      { "id": "p_s4_3", "type": "input", "question": "Jack shares $20 equally among 4 friends. How much does each friend get? (type just the number)", "answer": "5" },
+      { "id": "p_s4_4", "type": "mc", "question": "Which of these is NOT in the same fact family as 3 × 5 = 15?", "options": ["5 × 3 = 15", "15 ÷ 3 = 5", "15 ÷ 5 = 3", "15 + 3 = 18"], "answer": "15 + 3 = 18" },
+      { "id": "p_s4_5", "type": "mc", "question": "Sam buys 3 packs of pencils with 6 pencils each, then gives away 5 pencils. How many pencils are left?", "options": ["8", "13", "18", "23"], "answer": "13" }
+    ]
+  }
+]

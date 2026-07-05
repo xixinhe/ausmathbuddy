@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stage Quiz — AusMathBuddy</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <a class="brand" href="index.html">🧮 AusMathBuddy</a>
+  </header>
+
+  <div class="card">
+    <h1>Stage Quiz</h1>
+    <p>Answer all the questions, then press "Submit Quiz" at the bottom to see your score.</p>
+  </div>
+
+  <div id="locked-message" class="card" style="display:none;">
+    <p>You need to complete all 4 sections before taking the quiz.</p>
+    <a class="btn btn-primary" href="index.html">Back to Home</a>
+  </div>
+
+  <form id="quiz-form">
+    <div id="question-list"></div>
+    <div class="nav-row">
+      <a class="btn btn-outline" href="index.html">← Back to Home</a>
+      <button type="submit" class="btn btn-primary">Submit Quiz</button>
+    </div>
+  </form>
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>

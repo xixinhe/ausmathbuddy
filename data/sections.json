@@ -1,0 +1,91 @@
+[
+  {
+    "id": "s1",
+    "order": 1,
+    "title": "What is Multiplication?",
+    "curriculum_code": "AC9M3N04",
+    "intro": "Multiplication is a fast way to add the same number again and again. Instead of adding, we can multiply!",
+    "keyPoints": [
+      {
+        "heading": "Equal Groups",
+        "text": "3 groups of 4 stars is the same as 4 + 4 + 4 = 12. We write this as 3 × 4 = 12."
+      },
+      {
+        "heading": "Arrays",
+        "text": "An array is dots arranged in rows and columns. 3 rows of 4 dots = 12 dots, so 3 × 4 = 12."
+      }
+    ],
+    "worked_example": {
+      "problem": "A farmer has 4 baskets. Each basket has 5 apples. How many apples are there in total?",
+      "visual": { "rows": 4, "cols": 5 },
+      "steps": [
+        "There are 4 equal groups, and each group has 5 apples.",
+        "4 × 5 = 20"
+      ],
+      "answer": "20 apples"
+    }
+  },
+  {
+    "id": "s2",
+    "order": 2,
+    "title": "Multiplication Facts for 3, 4, 5 and 10",
+    "curriculum_code": "AC9M3A03",
+    "intro": "Knowing your multiplication facts by heart helps you solve problems quickly, without counting one by one.",
+    "keyPoints": [
+      { "heading": "×10 pattern", "text": "Just add a zero! 3 × 10 = 30, 7 × 10 = 70." },
+      { "heading": "×5 pattern", "text": "The answer always ends in 0 or 5. It is half of the ×10 fact: 6 × 5 is half of 6 × 10 = 60, so 6 × 5 = 30." },
+      { "heading": "×4 pattern", "text": "Double, then double again! 4 × 6: double 6 is 12, double 12 is 24. So 4 × 6 = 24." },
+      { "heading": "×3 pattern", "text": "Double the number, then add one more group. 3 × 7: double 7 is 14, plus 7 more is 21." }
+    ],
+    "table": { "factors": [3, 4, 5, 10], "upTo": 10 },
+    "worked_example": {
+      "problem": "Use the doubling pattern to work out 4 × 8.",
+      "steps": [
+        "Double 8 = 16",
+        "Double 16 = 32"
+      ],
+      "answer": "4 × 8 = 32"
+    }
+  },
+  {
+    "id": "s3",
+    "order": 3,
+    "title": "What is Division?",
+    "curriculum_code": "AC9M3N04",
+    "intro": "Division means splitting a number into equal groups. It is the opposite of multiplication.",
+    "keyPoints": [
+      { "heading": "Sharing division", "text": "12 lollies shared equally between 3 friends. Each friend gets 4 lollies. 12 ÷ 3 = 4." },
+      { "heading": "Grouping division", "text": "12 lollies put into groups of 4. That makes 3 groups. 12 ÷ 4 = 3." },
+      { "heading": "Division undoes multiplication", "text": "12 ÷ 3 = 4 because 3 × 4 = 12." }
+    ],
+    "worked_example": {
+      "problem": "There are 15 cupcakes. They are put into boxes of 5. How many boxes are needed?",
+      "visual": { "rows": 3, "cols": 5 },
+      "steps": [
+        "15 cupcakes split into groups of 5.",
+        "15 ÷ 5 = 3"
+      ],
+      "answer": "3 boxes"
+    }
+  },
+  {
+    "id": "s4",
+    "order": 4,
+    "title": "Multiplication and Division are Related",
+    "curriculum_code": "AC9M3N06",
+    "intro": "Multiplication and division are inverse (opposite) operations. Knowing one helps you check the other!",
+    "keyPoints": [
+      { "heading": "Fact families", "text": "3 × 4 = 12, 4 × 3 = 12, 12 ÷ 3 = 4, 12 ÷ 4 = 3 all belong to the same fact family." },
+      { "heading": "Check your work", "text": "If you divide and get an answer, multiply it back to check! 20 ÷ 4 = 5, and 4 × 5 = 20 checks out." },
+      { "heading": "Two-step problems", "text": "Some real problems need more than one step, mixing multiplication or division with addition or subtraction." }
+    ],
+    "worked_example": {
+      "problem": "Sam buys 3 packs of pencils. Each pack has 6 pencils. He gives away 5 pencils. How many pencils does he have left?",
+      "steps": [
+        "Step 1: 3 × 6 = 18 pencils in total.",
+        "Step 2: 18 − 5 = 13 pencils left."
+      ],
+      "answer": "13 pencils"
+    }
+  }
+]
