@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AusMathBuddy — UI 组件</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens/tokens.css" />
+<link rel="stylesheet" href="css/components.css" />
+<style>
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+  .demo {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 64px var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+  .demo h1 {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+<div class="demo">
+  <h1>组件预览</h1>
+
+  <div class="input-field">
+    <label for="child-name">孩子的名字</label>
+    <input id="child-name" type="text" placeholder="请输入姓名" />
+  </div>
+
+  <button class="btn-primary" type="button">开始学习</button>
+</div>
+</body>
+</html>

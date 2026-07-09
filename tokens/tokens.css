@@ -1,0 +1,17 @@
+:root {
+    /* 颜色 */
+    --color-bg:      #fff1e7;   /* 页面暖底 */
+    --color-surface: #ffffff;   /* 卡片底 */
+    --color-ink:     #10162f;   /* 主文字 / 主 CTA */
+    --color-accent:  #ff5757;   /* 强调 / 编号 / danger */
+    /* 边框 + 阴影 */
+    --border:    3px solid #000;
+    --shadow-md: 6px 6px 0 #000;
+    --radius:    0;             /* 直角 */
+    /* 字体 */
+    --font-heading: 'Bricolage Grotesque', sans-serif;
+    --font-body:    'DM Sans', sans-serif;
+    --font-mono:    'Space Mono', monospace;
+    /* 间距（4pt 一档）*/
+    --space-2: 8px;  --space-4: 16px;  --space-6: 24px;
+  }

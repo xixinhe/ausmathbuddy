@@ -1,0 +1,71 @@
+.btn-primary {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-surface);
+  background: var(--color-ink);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 14px var(--space-6);
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.btn-primary:hover {
+  background: var(--color-accent);
+}
+
+.btn-primary:active {
+  transform: translate(6px, 6px);
+  box-shadow: 0 0 0 #000;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: var(--shadow-md);
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+}
+
+.input-field label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink);
+}
+
+.input-field input {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-ink);
+  background: var(--color-surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 12px var(--space-4);
+  outline: none;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.input-field input::placeholder {
+  color: var(--color-ink);
+  opacity: 0.45;
+}
+
+.input-field input:focus {
+  border-color: var(--color-accent);
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #000;
+}
