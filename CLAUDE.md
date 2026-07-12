@@ -20,3 +20,6 @@
 
 # git
 不要把claude相关信息写进git message
+
+# 编程规范
+写代码前先看 [[rules/README.md]]，按领域找对应规则：通用编码原则见 `rules/code-quality/`（kiss / solid / dry / almo / readability-checklist / core-15-rules），流程协作规则见 `rules/workflow/`（enforcement / adlc / prd-split / changelog），前端专属规则见 `rules/frontend/`，后端专属规则见 `rules/backend/`。
