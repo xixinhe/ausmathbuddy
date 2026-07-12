@@ -1,7 +1,7 @@
 .hero {
-  background: var(--color-ink);
-  color: var(--color-surface);
-  padding: 80px var(--space-4) 96px;
+  background: var(--mg-color-canvas);
+  color: var(--mg-color-ink);
+  padding: var(--mg-space-4xl) var(--mg-space-xl) var(--mg-space-4xl);
 }
 
 .hero-inner {
@@ -12,108 +12,117 @@
 
 .hero-badge {
   display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: var(--color-accent);
-  color: var(--color-ink);
-  border-radius: 999px;
-  padding: 6px 18px;
-  margin-bottom: var(--space-6);
+  font-family: var(--mg-font-body);
+  font-weight: 600;
+  font-size: var(--mg-text-body-sm-size);
+  line-height: var(--mg-text-body-sm-leading);
+  color: var(--mg-color-accent-orange);
+  margin-bottom: var(--mg-space-lg);
 }
 
 .hero h1 {
-  font-family: var(--font-heading);
-  font-size: 56px;
-  line-height: 1.1;
-  margin: 0 0 var(--space-4);
+  font-family: var(--mg-font-display);
+  font-weight: 700;
+  font-size: var(--mg-text-display-xl-size);
+  line-height: var(--mg-text-display-xl-leading);
+  letter-spacing: var(--mg-text-display-xl-tracking);
+  margin: 0 0 var(--mg-space-lg);
+  text-wrap: balance;
 }
 
 .hero h1 span {
-  color: var(--color-accent);
+  color: var(--mg-color-accent-orange);
 }
 
 .hero p.lead {
-  font-family: var(--font-body);
-  font-size: 18px;
-  color: var(--color-surface);
-  opacity: 0.75;
+  font-family: var(--mg-font-body);
+  font-size: var(--mg-text-body-lg-size);
+  line-height: var(--mg-text-body-lg-leading);
+  color: var(--mg-color-ink-soft);
   max-width: 520px;
-  margin: 0 auto var(--space-6);
+  margin: 0 auto var(--mg-space-2xl);
 }
 
 .hero-actions {
   display: flex;
   justify-content: center;
-  gap: var(--space-4);
+  align-items: center;
+  gap: var(--mg-space-xl);
   flex-wrap: wrap;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--mg-space-2xl);
 }
 
 .hero-cta {
   display: inline-block;
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 16px;
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
-  padding: 14px var(--space-6);
+  font-family: var(--mg-font-body);
+  font-weight: 600;
+  font-size: var(--mg-text-label-size);
+  line-height: var(--mg-text-label-leading);
+  text-decoration: underline;
+  text-underline-offset: 3px;
   cursor: pointer;
-  text-decoration: none;
-  transition: transform 0.08s ease, box-shadow 0.08s ease;
 }
 
 .hero-cta.is-primary {
-  background: var(--color-accent);
-  color: var(--color-ink);
+  color: var(--mg-color-accent-orange);
 }
 
 .hero-cta.is-secondary {
-  background: var(--color-surface);
-  color: var(--color-ink);
+  color: var(--mg-color-ink-soft);
 }
 
-.hero-cta:active {
-  transform: translate(6px, 6px);
-  box-shadow: 0 0 0 #000;
+@media (prefers-reduced-motion: no-preference) {
+  .hero-cta { transition: opacity 0.12s ease; }
+}
+
+.hero-cta:hover {
+  opacity: 0.7;
 }
 
 .hero-stats {
   display: flex;
   justify-content: center;
-  gap: var(--space-6);
-  background: var(--color-surface);
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
-  padding: var(--space-4) var(--space-6);
+  gap: var(--mg-space-2xl);
+  background: var(--mg-color-surface);
+  border-radius: var(--mg-radius-lg);
+  padding: var(--mg-space-xl) var(--mg-space-2xl);
   max-width: fit-content;
   margin: 0 auto;
 }
 
 .hero-stat {
-  color: var(--color-ink);
+  color: var(--mg-color-ink);
   text-align: center;
 }
 
 .hero-stat .num {
   display: block;
-  font-family: var(--font-mono);
+  font-family: var(--mg-font-display);
   font-weight: 700;
-  font-size: 24px;
+  font-size: var(--mg-text-stat-size);
+  line-height: var(--mg-text-stat-leading);
+  color: var(--mg-color-accent-orange);
 }
 
 .hero-stat .label {
   display: block;
-  font-family: var(--font-body);
+  font-family: var(--mg-font-body);
   font-size: 12px;
-  opacity: 0.65;
+  color: var(--mg-color-ink-soft);
+  margin-top: var(--mg-space-xxs);
 }
 
 @media (max-width: 560px) {
-  .hero { padding: 56px var(--space-4) 72px; }
-  .hero h1 { font-size: 36px; }
-  .hero-stats { flex-wrap: wrap; gap: var(--space-4); }
+  .hero {
+    padding: var(--mg-space-3xl) var(--mg-space-lg) var(--mg-space-3xl);
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.3px;
+  }
+  .hero-stats {
+    flex-wrap: wrap;
+    gap: var(--mg-space-lg);
+  }
 }
