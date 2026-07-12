@@ -1,0 +1,76 @@
+/*
+  Marigold reference design tokens — a warm, playful kids-education system.
+  Source: docs/design-references/marigold-design.md (audited from a user-supplied reference image).
+  Fredoka is the open-source substitute for the source's proprietary rounded display face.
+*/
+
+:root {
+  /* Color — brand & accent */
+  --mg-color-canvas: #f4c43a;
+  --mg-color-canvas-soft: #f8da7b;
+  --mg-color-accent-orange: #e8720c;
+  --mg-color-accent-coral: #dd4b3e;
+  --mg-color-accent-mint: #7fd8b8;
+
+  /* Color — surface & ink */
+  --mg-color-ink: #3b3116;
+  --mg-color-ink-soft: #6b5a33;
+  --mg-color-body-on-dark: #ede6d2;
+  --mg-color-surface: #ffffff;
+
+  /* Type family */
+  --mg-font-display: "Fredoka", ui-rounded, "Baloo 2", sans-serif;
+  --mg-font-body: "Inter", -apple-system, "Segoe UI", sans-serif;
+
+  /* Type scale: size / line-height / letter-spacing / weight */
+  --mg-text-display-xl-size: 72px;
+  --mg-text-display-xl-leading: 76px;
+  --mg-text-display-xl-tracking: -0.5px;
+  --mg-text-display-xl-weight: 700;
+
+  --mg-text-display-lg-size: 48px;
+  --mg-text-display-lg-leading: 52px;
+  --mg-text-display-lg-tracking: -0.3px;
+  --mg-text-display-lg-weight: 700;
+
+  --mg-text-display-md-size: 32px;
+  --mg-text-display-md-leading: 36px;
+  --mg-text-display-md-weight: 600;
+
+  --mg-text-stat-size: 40px;
+  --mg-text-stat-leading: 40px;
+  --mg-text-stat-weight: 700;
+
+  --mg-text-body-lg-size: 18px;
+  --mg-text-body-lg-leading: 28px;
+
+  --mg-text-body-md-size: 16px;
+  --mg-text-body-md-leading: 24px;
+
+  --mg-text-body-sm-size: 14px;
+  --mg-text-body-sm-leading: 20px;
+
+  --mg-text-label-size: 14px;
+  --mg-text-label-leading: 20px;
+  --mg-text-label-weight: 600;
+
+  /* Spacing — 4px base unit */
+  --mg-space-xxs: 2px;
+  --mg-space-xs: 4px;
+  --mg-space-sm: 8px;
+  --mg-space-md: 12px;
+  --mg-space-lg: 16px;
+  --mg-space-xl: 24px;
+  --mg-space-2xl: 32px;
+  --mg-space-3xl: 48px;
+  --mg-space-4xl: 64px;
+
+  /* Shape */
+  --mg-radius-sm: 12px;
+  --mg-radius-lg: 28px;
+  --mg-radius-badge: 18px;
+  --mg-radius-full: 9999px;
+
+  /* Elevation */
+  --mg-shadow-float: 0 10px 24px rgba(59, 49, 22, 0.16);
+}
