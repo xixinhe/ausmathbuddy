@@ -1,0 +1,39 @@
+/*
+  AusMathBuddy design tokens.
+  Rules live in CLAUDE.md — 3px black border + 6px 6px 0 #000 hard shadow,
+  0 radius except circular/pill elements, Bricolage Grotesque / DM Sans /
+  Space Mono, 4pt spacing grid. This file is the single source for
+  --color-* values; component CSS must not hardcode hex.
+*/
+
+:root {
+  /* Color */
+  --color-ink: #16130f;
+  --color-surface: #ffffff;
+  --color-bg: #fff3d6;
+  --color-accent: #ff5a36;
+
+  /* Type */
+  --font-heading: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-body: "DM Sans", "Segoe UI", sans-serif;
+  --font-mono: "Space Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Spacing — 4pt grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Shape */
+  --border: 3px solid #000;
+  --radius: 0;
+  --radius-pill: 999px;
+  --shadow-md: 6px 6px 0 #000;
+}
